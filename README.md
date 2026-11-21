@@ -13,7 +13,39 @@
 
 I design hardware for machine learning and write the software around it: performance models, compilers and bit-accurate simulators. Before I call a design done, the RTL has to match its software model on every output bit, and where I can get a board or a chip, the measurement has to match too.
 
-I work in two labs at NTU, with Prof. Chia-Hsiang Yang on FPGA and ASIC accelerators and with Prof. Tsung-Te Liu on compute-in-memory chips. I graduate in 2027 and am looking for a summer 2027 internship.
+I work in two research labs at NTU, one on FPGA and ASIC accelerators and one on compute-in-memory chips. I graduate in 2027 and am looking for a summer 2027 internship.
+
+## Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SystemVerilog-334155?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05IDJoMnYzSDl6TTEzIDJoMnYzaC0yek05IDE5aDJ2M0g5ek0xMyAxOWgydjNoLTJ6TTIgOWgzdjJIMnpNMiAxM2gzdjJIMnpNMTkgOWgzdjJoLTN6TTE5IDEzaDN2MmgtM3oiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDZoMTJ2MTJINnpNOSA5djZoNlY5eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="SystemVerilog" height="24">
+  <img src="https://img.shields.io/badge/Verilog-334155?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05IDJoMnYzSDl6TTEzIDJoMnYzaC0yek05IDE5aDJ2M0g5ek0xMyAxOWgydjNoLTJ6TTIgOWgzdjJIMnpNMiAxM2gzdjJIMnpNMTkgOWgzdjJoLTN6TTE5IDEzaDN2MmgtM3oiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDZoMTJ2MTJINnpNOSA5djZoNlY5eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Verilog" height="24">
+  <img src="https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white" alt="RISC-V" height="24">
+  <img src="https://img.shields.io/badge/Vivado-C8102E?style=flat-square&logo=amd&logoColor=white" alt="Vivado" height="24">
+  <img src="https://img.shields.io/badge/Quartus-0071C5?style=flat-square&logo=intel&logoColor=white" alt="Quartus" height="24">
+  <img src="https://img.shields.io/badge/Synopsys_VCS-334155?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05IDJoMnYzSDl6TTEzIDJoMnYzaC0yek05IDE5aDJ2M0g5ek0xMyAxOWgydjNoLTJ6TTIgOWgzdjJIMnpNMiAxM2gzdjJIMnpNMTkgOWgzdjJoLTN6TTE5IDEzaDN2MmgtM3oiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDZoMTJ2MTJINnpNOSA5djZoNlY5eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Synopsys VCS" height="24">
+  <img src="https://img.shields.io/badge/Design_Compiler-334155?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05IDJoMnYzSDl6TTEzIDJoMnYzaC0yek05IDE5aDJ2M0g5ek0xMyAxOWgydjNoLTJ6TTIgOWgzdjJIMnpNMiAxM2gzdjJIMnpNMTkgOWgzdjJoLTN6TTE5IDEzaDN2MmgtM3oiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDZoMTJ2MTJINnpNOSA5djZoNlY5eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Design Compiler" height="24">
+  <img src="https://img.shields.io/badge/PrimeTime-334155?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik05IDJoMnYzSDl6TTEzIDJoMnYzaC0yek05IDE5aDJ2M0g5ek0xMyAxOWgydjNoLTJ6TTIgOWgzdjJIMnpNMiAxM2gzdjJIMnpNMTkgOWgzdjJoLTN6TTE5IDEzaDN2MmgtM3oiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02IDZoMTJ2MTJINnpNOSA5djZoNlY5eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="PrimeTime" height="24">
+  <img src="https://img.shields.io/badge/Calibre-009999?style=flat-square&logo=siemens&logoColor=white" alt="Calibre" height="24">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="24">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" height="24">
+  <img src="https://img.shields.io/badge/C-5C6BC0?style=flat-square&logo=c&logoColor=white" alt="C" height="24">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" height="24">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="24">
+  <img src="https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux" height="24">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" height="24">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" height="24">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" height="24">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" height="24">
+  <img src="https://img.shields.io/badge/Snapdragon_NPU-3253DC?style=flat-square&logo=qualcomm&logoColor=white" alt="Snapdragon NPU" height="24">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" height="24">
+</p>
 
 ## Research
 
@@ -44,9 +76,5 @@ Each repository's README has the measured results, the architecture and how to r
 
 - B.S. in Electrical Engineering, National Taiwan University, expected 2027. GPA 4.16/4.3.
 - Research intern at Academia Sinica (CITI), summer 2025, on diffusion models for scannable video QR codes. First author of a manuscript under revision.
-- Teaching assistant for Machine Learning (Prof. Hsuan-Tien Lin) and for NTUEE Cornerstone.
+- Teaching assistant for Machine Learning and for NTUEE Cornerstone.
 - NSTC Undergraduate Research Grant, 2026. Third Prize and Best Popularity Award, NTUEE Undergraduate Project Award, 2026, for a real-time FPGA target-tracking system.
-
-## Tools
-
-SystemVerilog and Verilog with Synopsys VCS, Design Compiler and PrimeTime; Vivado for FPGA work; Calibre for DRC and LVS. Python, C/C++ and Rust. PyTorch for quantization-aware training and bit-accurate integer models.
