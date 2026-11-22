@@ -52,7 +52,7 @@ I work in two research labs at NTU, one on FPGA and ASIC accelerators and one on
 | Project | What it is |
 |---|---|
 | On-device VLM accelerator | An inference accelerator for a vision-language model, built from a performance model down to SystemVerilog. The whole image-and-prompt-to-token flow runs bit-exact in RTL simulation. Ongoing, not public yet. |
-| [EfficientViT-FPGA-Accelerator](https://github.com/hsuehntuee/EfficientViT-FPGA-Accelerator) | The attention blocks of EfficientViT on a Xilinx VCU128, running inside a PyTorch network over PCIe and matching the integer model on every on-board run. |
+| [EfficientViT-FPGA-Accelerator](https://github.com/hsuehntuee/EfficientViT-FPGA-Accelerator) | An INT8 accelerator for the attention blocks of EfficientViT on a Xilinx VCU128, running inside a PyTorch network and bit-exact with its integer model on the board. |
 | [IBERT-CIM-Inference](https://github.com/hsuehntuee/IBERT-CIM-Inference) | Integer-only BERT inference prepared for a 28 nm compute-in-memory chip. A pretrained BERT now runs end to end on that chip, close to its floating-point accuracy. |
 
 ## Chips and processors
