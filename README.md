@@ -74,7 +74,7 @@ Each repository's README has the measured results, the architecture and how to r
 
 ## Background
 
-- B.S. in Electrical Engineering, National Taiwan University, expected 2027. GPA 4.16/4.3.
+- B.S. in Electrical Engineering, National Taiwan University, expected 2027. GPA 4.16/4.30.
 - Research intern at Academia Sinica (CITI), summer 2025, on diffusion models for scannable video QR codes. First author of a manuscript under revision.
 - Teaching assistant for Machine Learning and for NTUEE Cornerstone.
 - NSTC Undergraduate Research Grant, 2026. Third Prize and Best Popularity Award, NTUEE Undergraduate Project Award, 2026, for a real-time FPGA target-tracking system.
